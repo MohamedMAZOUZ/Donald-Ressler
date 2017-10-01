@@ -79,7 +79,7 @@ footer .footer-copyright>div{color: #888;font-size: 13px;}
 footer img{width: 75%;}
 
 @media only screen and (max-width: 992px){
-     section:first-of-type p, section:first-of-type h2{font-size: 1.5em;}
+     section:first-of-type p, section:first-of-type h2{font-size: 1.2em;}
      section:nth-child(2) h2, section:nth-child(2) p{position: inherit;margin: inherit;}
      section:nth-child(2) article{position: relative;top: 15%;}
      section:nth-child(5) .row div:first-child{margin-top: 0%;}
@@ -88,16 +88,16 @@ footer img{width: 75%;}
 
 @media only screen and (max-width: 660px){
      body>ul{display: none;}
-     section:first-of-type p, section:first-of-type h2{font-size: 1.3em;}
+     section:first-of-type p, section:first-of-type h3{font-size: 1.2em;}
      section:first-of-type>article{top: 15%;}
-     section:first-of-type h2{font-size: 4em;}
+     section:first-of-type h2{font-size: 3em;}
      section:nth-child(3) figure{height: 400px;}
      section:nth-child(3) figure figcaption div{margin: 130px 0px 0px 5%;}
      
 }
 @media only screen and (max-width: 600px){
     section:nth-child(5) .row div:last-child{margin-top: 4em;}
-    section:first-of-type img{width: 5.5rem;left: 4%;}
+    section:first-of-type img{width: 4rem;left: 4%;}
     section:nth-child(5) img{width: 70% !important;margin: 0px auto;display: block;}
 }
 @media only screen and (max-width: 425px){
@@ -108,5 +108,4 @@ footer img{width: 75%;}
 @media only screen and (max-width: 320px){
     section:first-of-type h2{font-size: 3em;}
     section:first-of-type>article{top: 4em;}section:first-of-type h1{font-size: 3em;}
-    section:first-of-type img{width: 4.5rem;}
 }
