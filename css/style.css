@@ -89,7 +89,7 @@ footer img{width: 75%;}
 
 @media only screen and (max-width: 660px){
      body>ul{display: none;}
-     section:first-of-type p, section:first-of-type h3{font-size: 1.2em;}
+     section:first-of-type p, section:first-of-type h3{font-size: 1em;}
      section:first-of-type>article{top: 15%;}
      section:first-of-type h2{font-size: 3em;}
      section:nth-child(3) figure{height: 400px;}
