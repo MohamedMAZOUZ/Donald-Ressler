@@ -12,7 +12,7 @@
 <body>
 
      <section id="one">
-          <a data-scroll href="#two"><svg class="arrows" style="position: absolute;bottom: 1%;">
+          <a data-scroll href="#two"><svg class="arrows" style="position: absolute;bottom: 2%;">
               <path class="a1" d="M0 0 L30 32 L60 0"></path>
               <path class="a2" d="M0 20 L30 52 L60 20"></path>
               <path class="a3" d="M0 40 L30 72 L60 40"></path>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="container center">
                       <p>A glance up at the night sky reveals a broad swath of light. Described by the ancients as a river, as milk, and as a path, among other things, the band has been visible in the heavens since Earth first formed. In reality, this intriguing line of light is the center of our galaxy, as seen from one of its outer arms the Milky Way has long been challenging on the outer edges of one arm in a disk of material, and no one can see across the dense center to the other side. </p>
-                      <a href="#!">Watch the video <i class="material-icons">play_circle_outline</i></a>
+                      <a class="modal-trigger" href="#modal1">Watch the video <i class="material-icons">play_circle_outline</i></a>
                 </div>
           </article>    
      </section> 
@@ -60,7 +60,7 @@
                 <figcaption>
                     <div>
                       <h3 class="white-text">Learns what you love.<br>And what you don’t.</h3>
-                          <a href="#!">Learn more about telescope ></a><br><a href="#!">Shop to discover more ></a>
+                          <a class="modal-trigger" href="#modal2">Learn more about telescope ></a><br><a href="#!">Shop to discover more ></a>
                     </div>
                 </figcaption>
           </figure>
@@ -152,12 +152,32 @@
 
      <!--Fixed Nav-->
      <ul>
-        <li><a data-scroll href="#one">●</a></li>
-        <li><a data-scroll href="#two">●</a></li>
-        <li><a data-scroll href="#three">●</a></li>
-        <li><a data-scroll href="#four">●</a></li>
-        <li><a data-scroll href="#five">●</a></li>
+          <li><a data-scroll href="#one">●</a></li>
+          <li><a data-scroll href="#two">●</a></li>
+          <li><a data-scroll href="#three">●</a></li>
+          <li><a data-scroll href="#four">●</a></li>
+          <li><a data-scroll href="#five">●</a></li>
      </ul><!--/Fixed Nav-->
+
+
+
+    <iframe src="https://www.youtube.com/embed/XGSy3_Czz8k?controls=0" id="modal1" class="modal"></iframe>
+
+
+
+     <div class="white" id="loading"><img src="https://digitalsynopsis.com/wp-content/uploads/2016/06/loading-animations-preloader-gifs-ui-ux-effects-23.gif" alt="loading"></div>
+
+  <!-- Modal Structure -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+    </div>
+  </div>
+
 
     <script type="text/javascript" src="js/smooth-scroll.js"></script>
     <script type="text/javascript" src="js/effect.js"></script>

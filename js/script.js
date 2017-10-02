@@ -9,6 +9,14 @@ $(document).ready(function() {
         setHeight();
       });
 
+     /*Loading*/
+     $('body').css({"position": "fixed"});
+     $(window).load(function () {
+           $("#loading").fadeOut("fast");
+           $('body').css({"position": "inherit"});
+      });   
+
+     $('.modal').modal();
 
       /*Smooth Scrool*/
       smoothScroll.init({
@@ -16,7 +24,7 @@ $(document).ready(function() {
           updateURL: true, // Boolean. If true, update the URL hash on scroll
       });
 
-/*TEXT EFFECTS*/
+    /*TEXT EFFECTS*/
     var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
