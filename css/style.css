@@ -58,7 +58,7 @@ a>i{position: relative;top: 7px;}
 section h2, section h4, section h3, section:nth-child(4) p span{font-family: sfB;}
 
 /*Third Section*/
-section:nth-child(3) figure{height: 450px;margin: 0px;background: url("../images/GMT-2015-Night1 large.jpg") fixed;background-repeat: no-repeat;background-size: cover;}
+section:nth-child(3) figure{height: 450px;margin: 0px;background: url("../images/night.png") fixed;background-repeat: no-repeat;background-size: cover;}
 section:nth-child(3) figure figcaption{position: absolute;left: 0;right: 0;top: 0;bottom: 0;background: rgba(0, 0, 0, 0.5);}
 section:nth-child(3) figure figcaption div{margin: 150px 0px 0px 13%;}
 

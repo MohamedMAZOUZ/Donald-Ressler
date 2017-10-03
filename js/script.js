@@ -16,7 +16,6 @@ $(document).ready(function() {
            $('body').css({"position": "inherit"});
       });   
 
-     $('.modal').modal();
 
       /*Smooth Scrool*/
       smoothScroll.init({
